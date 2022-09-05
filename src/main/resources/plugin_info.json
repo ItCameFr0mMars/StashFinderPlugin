@@ -1,10 +1,10 @@
 {
-  "name": "ExamplePlugin",
+  "name": "StashFinder",
   "version": "${version}",
   "description": "Example implementation of a plugin for Lambda.",
   "url": "https://github.com/lambda-client/ExamplePlugin",
   "authors": [ "me", "you" ],
-  "main_class": "com.lambda.ExamplePlugin",
+  "main_class": "com.lambda.StashFinderPlugin",
   "min_api_version": "3.2",
   "mixins": [ "mixins.ExamplePlugin.json" ],
   "required_plugins": []
