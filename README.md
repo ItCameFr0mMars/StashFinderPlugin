@@ -6,5 +6,7 @@ I'm not really sure how it works yet, mess around with it ig?
 
 # instructions
 Set the Radius
+
 Turn on elytrafly
+
 turn on autowalk
