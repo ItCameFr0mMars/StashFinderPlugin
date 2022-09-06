@@ -33,10 +33,10 @@ internal object StashFinder: PluginModule(
     private val ogX = setting("dontTouchX", 50, -99999999..99999999, 1, page.atValue(Page.DONTTOUCH))
     private val ogZ = setting("dontTouchY", 50, -99999999..99999999, 1, page.atValue(Page.DONTTOUCH))
 
-    private val spacerLength = setting("spiralSpacerVal", 25, 1..5000, 5, page.atValue(Page.GENERAL))
+    private val spacerLength = setting("Spacer", 25, 1..5000, 5, page.atValue(Page.GENERAL), description="Space (in blocks) between spirals")
     // private var timesPointer = 1
 
-    private val StashFinderCamera by setting("StashFinderCamera", value = true, page.atValue(Page.GENERAL))
+    private val StashFinderCamera by setting("StashFinderCamera", value = true, page.atValue(Page.GENERAL), description ="Lock the camera")
 
     private val resumeMode = setting("resumeMode", false,page.atValue(Page.GENERAL))
     private val sideLengthForResume = setting("sideLengthOfSpiralforResume", 50, 1..999999, 1,page.atValue(Page.GENERAL))
