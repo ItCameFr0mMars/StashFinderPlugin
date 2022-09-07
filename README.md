@@ -11,7 +11,9 @@ Turn on elytrafly
 
 turn on autowalk
 
-#TODO
+# TODO
 Resume From Coords
+
 Clean Code
+
 Autolog if Y level drops below set level
