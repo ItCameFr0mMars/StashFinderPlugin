@@ -6,6 +6,6 @@
   "authors": [ "ItCameFromMars", "etbes" ],
   "main_class": "com.lambda.StashFinderPlugin",
   "min_api_version": "3.2",
-  "mixins": [ "mixins.ExamplePlugin.json" ],
+  "mixins": [],
   "required_plugins": []
 }
